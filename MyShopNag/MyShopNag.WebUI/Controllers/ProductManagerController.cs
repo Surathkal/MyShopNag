@@ -82,7 +82,7 @@ namespace MyShopNag.WebUI.Controllers
                 productToUpdate.Description= product.Description;
                 productToUpdate.Image= product.Image;
                 productToUpdate.Name= product.Name;
-                productToUpdate.Price= product.Price;
+                productToUpdate.Price1 = product.Price;
 
                 context.Commit();
 
